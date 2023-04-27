@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn {
+  width: 160px;
+  height: 54px;
+  background: #494949;
+  border-radius: 27px;
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+}
+.btn:hover {
+  color: aliceblue;
+  width: 160px;
+  height: 54px;
+
+  background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
+  border-radius: 50px;
+}
+p {
+  font-family: "Sharp Sans No1";
+  font-style: normal;
+  font-weight: 760;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #545454;
+}
+.pravda {
+  position: absolute;
+  margin-top: 760px;
+  left: 615px;
+}
+h3 {
+  font-family: "Sharp Sans No1";
+  font-style: normal;
+  font-weight: 770;
+  font-size: 28px;
+  line-height: 35px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* black */
+
+  color: #181d19;
+}
+h1 {
+  font-family: "Sharp Sans No1";
+  font-style: normal;
+  font-weight: 770;
+  font-size: 54px;
+  line-height: 68px;
+  /* identical to box height */
+
+  color: #151414;
+}
+.docset {
+  text-align: center;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

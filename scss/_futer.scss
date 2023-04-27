@@ -1,0 +1,266 @@
+.footer__holder {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.footer__box:first-child {
+  width: 20%;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.footer__logo h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.footer__box {
+  line-height: 2rem;
+  a {
+    color: #657582;
+    font-size: 20px;
+    strong {
+      font-size: 22px;
+      color: black;
+    }
+  }
+}
+.strong__margin {
+  margin-bottom: 10px;
+}
+.footer__end {
+  text-align: center;
+  padding: 20px 0;
+  background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.section__head {
+  margin-top: 20px;
+  text-align: center;
+  h1 {
+    font-weight: 770;
+    font-size: 54px;
+    line-height: 68px;
+    color: #151414;
+  }
+  p {
+    padding-top: 20px;
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+.food__item {
+  width: 356px;
+  height: 520px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 20px;
+}
+.food__item__2 {
+  width: 356px;
+  height: 520px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: -15px -50px 81px #ffffff, 10px 20px 70px rgba(71, 68, 68, 0.08);
+  border-radius: 20px;
+}
+.food_item {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  img {
+    margin-top: 40px;
+  }
+  h3 {
+    padding-top: 27px;
+    font-weight: 770;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  p {
+    padding-top: 20px;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.button_item {
+  margin-top: 60px;
+  text-align: center;
+}
+.text {
+  font-size: 22px;
+  color: #181d19;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.title {
+  font-style: normal;
+  font-weight: 770;
+  font-size: 54px;
+  line-height: 68px;
+  color: #151414;
+}
+.center {
+  margin-top: 100px;
+  display: flex;
+}
+.center__first {
+  margin-top: 80px;
+}
+
+.center__second {
+  margin-left: 350px;
+  display: flex;
+  position: relative;
+}
+.image {
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+.img {
+  margin-left: 10px;
+}
+.Fresh {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.left {
+  margin-left: 230px;
+}
+
+.Best {
+  padding: 50px 0;
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-image: url(../imeges/bck-element.svg);
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Best__cook {
+  width: 40%;
+  margin-top: 20px;
+  margin-right: 250px;
+}
+
+.check a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.check p {
+  margin-left: 10px;
+}
+
+.leaf {
+  position: absolute;
+  top: 320px;
+  left: 415px;
+}
+.leafs {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  z-index: -1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.navbar_ul {
+  display: flex;
+  justify-content: start;
+  margin-left: -150px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.navbar a:hover {
+  color: #5fb848;
+}
+.navbar_texts {
+  margin-left: 20px;
+  color: black;
+}
+.icons {
+  text-align: end;
+}
+.icons i {
+  margin: 0 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header_h1 {
+  font-size: 57px;
+  margin-top: 150px;
+  font-family: Arial;
+}
+.header_p {
+  font-size: 20px;
+  font-family: Arial;
+  color: gray;
+  margin-top: 10px;
+}
+.header_img {
+  width: 650px;
+}
+
+.h1_span {
+  color: #5fb848;
+}
+.navbar-h1 {
+  font-size: 26px;
+  margin-top: 10px;
+}
+.btn {
+  margin-top: 20px;
+  border: none;
+}
+.section_h1 {
+  font-size: 57px;
+  margin-top: 150px;
+  font-family: Arial;
+  text-align: center;
+}
+.section_p {
+  font-size: 20px;
+  font-family: Arial;
+  text-align: center;
+  color: gray;
+}
+.section-boxes {
+  display: flex;
+  margin-top: 70px;
+}
+.section-boxes .section-box-1 {
+  margin-left: 130px;
+  text-align: center;
+  font-family: Arial;
+}
+.section-box-1-p {
+  color: gray;
+  margin-top: 20px;
+}
+.number {
+  margin-top: 50px;
+}
+.number_h1 {
+  font-size: 50px;
+}
